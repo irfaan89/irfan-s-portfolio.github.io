@@ -12,8 +12,15 @@
         }
 
         body {
-            background-color: rgb(62, 56, 85);
-            color: white;
+            background-image: url(again.png);
+            color: rgb(255, 255, 255);
+            background-size: 1500px;
+
+        }
+
+        .background-image {
+            size: 300px;
+
         }
 
         nav {
@@ -21,7 +28,8 @@
             justify-content: space-around;
             align-items: center;
             height: 80px;
-            background-color: rgba(150, 158, 230, 0.63);
+            background-color: rgb(87, 145, 170);
+            background: none;
         }
 
         nav ul {
@@ -36,7 +44,7 @@
 
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: rgb(250, 250, 250);
         }
 
         nav ul li a:hover {
@@ -46,8 +54,9 @@
         main hr {
             border: 0;
             background-color: white;
-            height: 1.2px;
+            height: 2.2px;
             margin: 30px 84px;
+           
         }
 
         .left {
@@ -71,20 +80,22 @@
 
         .rightsection img {
             width: 80%;
+            padding: -50px 100px;
+            border-radius: 70px ;
+            border: 10px solid;
 
         }
-
         .text-gray {
-            color: gray;
+            color: white;
             margin-bottom: 100px;
         }
 
         .white {
-            color: rgba(182, 182, 182, 0.63);
+            color: rgb(87, 145, 170);
         }
 
         #element {
-            color: rgba(182, 182, 182, 0.63);
+            color: white;
         }
 
         .secondsection {
@@ -105,46 +116,54 @@
             display: flex;
 
         }
-        .secondsection .vertical{
+
+        .secondsection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
             margin: 0 100px;
         }
-        .image-top{
+
+        .image-top {
             width: 30px;
             position: relative;
             top: -32px;
             left: -9px;
         }
-        .vertical-title{
+
+        .vertical-title {
             position: relative;
             top: 75px;
             width: 150px;
 
         }
-        .vertical-desc{
+
+        .vertical-desc {
             position: relative;
             top: 86px;
-            color: gray;
+            color: white;
             width: 150px;
-            font-size: 9px; 
+            font-size: 9px;
 
         }
-        footer{
-            background-color:#0e0e1a;
-            height: 140px;
+
+        footer {
+            background-color: none;
+            height: 100px;
         }
-        .footer{
+
+        .footer {
             display: flex;
-            padding: 23px 70px;
+            padding: 23px 50px;
             justify-content: space-evenly;
         }
-        .footer ul{
+
+        .footer ul {
             list-style: none;
         }
-        .footer > div{
-            width: 160px;
+
+        .footer>div {
+            width: 300px;
         }
     </style>
 </head>
@@ -155,10 +174,10 @@
             <div class="left">Irfan's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
@@ -171,8 +190,11 @@
                 <div>And I am a passionate</div>
                 <span id="element"></span>
             </div>
+            <div>
+                <div class="circle"></div>
+            </div>
             <div class="rightsection">
-                <img src="PngItem_1127587.png" alt="">
+                <img src="ye_wali-removebg-preview (1).png" alt="">
             </div>
         </section>
         <hr>
@@ -182,63 +204,53 @@
 
             <div class="box">
                 <div class="vertical">
-                    <img class='image-top'src="5072860.png" alt="">
+                    <img class='image-top' src="5072860.png" alt="">
                     <div class="vertical-title">
                         Graphic Designer (2018-continue)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur  
-                        totam error perspiciatis adipisicing elit. 
-                        molestias reiciendis, veritatis, omni.
+                        The digital relation
                     </div>
                 </div>
 
 
                 <div class="vertical">
-                    <img class='image-top'src="5072860.png" alt="">
+                    <img class='image-top' src="html.png" alt="">
                     <div class="vertical-title">
                         HTML Developer (2018-continue)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur  
-                        totam error perspiciatis adipisicing elit. 
-                        molestias reiciendis, veritatis, omni.
+                        Leading the new Digital World
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class='image-top'src="5072860.png" alt="">
+                    <img class='image-top' src="css.png" alt="">
                     <div class="vertical-title">
-                        CSS Developer (2019-continue)
+                        CSS Developer <br>(2019-continue)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur  
-                        totam error perspiciatis adipisicing elit. 
-                        molestias reiciendis, veritatis, omni.
+                        A software that belongs to you
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class='image-top'src="5072860.png" alt="">
+                    <img class='image-top' src="java.png" alt="">
                     <div class="vertical-title">
                         Javascript Developer (2020-continue)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur  
-                        totam error perspiciatis adipisicing elit. 
-                        molestias reiciendis, veritatis, omni.
+                        Taking security a step ahead
                     </div>
                 </div>
 
                 <div class="vertical">
-                    <img class='image-top'src="5072860.png" alt="">
+                    <img class='image-top' src="python.png" alt="">
                     <div class="vertical-title">
                         python Developer (2022-continue)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet, consectetur  
-                        totam error perspiciatis adipisicing elit. 
-                        molestias reiciendis, veritatis, omni.
+                        Inventing better future
                     </div>
                 </div>
                 <div class="vertical"></div>
@@ -252,32 +264,18 @@
                 <h3>Irfan's Developer Portfolio</h3>
             </div>
             <div class="footer-second">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Profile</li>
-                    <li>Services</li>
-                </ul>
             </div>
             <div class="footer-third">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Profile</li>
-                    <li>Services</li>
-                </ul>
             </div>
             <div class="footer-fourth">
                 <ul>
                     <li>Contact Me : 0346-2746-994</li>
                     <br>
                     <li>Thank you !</li>
-                    
-                   
-                   
-                    
+
+
+
+
                 </ul>
             </div>
         </div>
@@ -285,7 +283,7 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Photo-Editor', 'Web Designer', 'Graphic Designer','Web Developer'],
+            strings: ['Web Developer', 'Photo-Editor', 'Web Designer', 'Graphic Designer', 'Web Developer'],
             typeSpeed: 50,
         });
     </script>
